@@ -1,0 +1,56 @@
+#fh5co-header {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  content: "viewport-units-buggyfill; height:100vh; width: 100vw";
+  display: table;
+}
+
+#fh5co-header .fh5co-text-wrap {
+  height: 100vh;
+  width: 100vw;
+  content: "viewport-units-buggyfill; height:100vh; width: 100vw";
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#fh5co-header .fh5co-intro-text {
+  -webkit-transform: skewY(-7deg);
+  -moz-transform: skewY(-7deg);
+  -ms-transform: skewY(-7deg);
+  -o-transform: skewY(-7deg);
+  transform: skewY(-7deg);
+  text-align: center;
+}
+#fh5co-header h1 {
+  font-size: 3.5em;
+  line-height: 100px;
+  font-weight: 600;
+  letter-spacing: 15px;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  color: #fff;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.fh5co-intro-text a {
+  color: #ffab00;
+  border-bottom: 3px solid #ffab00;
+}
+.fh5co-intro-text a:hover {
+  color: #ffab00;
+  opacity: 0.8;
+  border-bottom: 3px solid #ffab00;
+}
+#fh5co-header h1 span {
+  font-family: "Playfair Display", Times, serif;
+  font-style: italic;
+  text-transform: none !important;
+}
+
+#fh5co-header span {
+  margin: 0;
+  padding: 0;
+}
